@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Projeto 03 - Html e Css</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<meta charset="utf-8">
+	<meta name="description" content="Site do Projeto 03">
+	<meta name="keywords" content="palavras, separados, por, vírgulas"/>
+	<meta name="author" content="Romildo A. Lima Jr"/>
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo"></div><!--logo-->
+			<div class="titulo">Kalango's</div><!--logo-->
+			<nav class="desktop-menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="">Sobre</a></li>
+					<li><a href="">Contatos</a></li>
+				</ul>
+			</nav>
+
+			<nav class="mobile-menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="">Sobre</a></li>
+					<li><a href="">Contatos</a></li>
+				</ul>
+			</nav>
+
+			<div class="clear"></div>
+			<div class="chamada1">
+				<h2>Sistemas Próprios<br/>Para Empresas Autênticas</h2>
+				<p>Etiam efficitur orci nec bibendum porta. Nulla facilisi. Nullam eget felis et mi sollicitudin elementum. Nullam nec arcu vel turpis porttitor dictum a a nunc. Praesent et arcu eu turpis volutpat fermentum.</p>
+			</div><!--chamada1-->
+		</div><!--container-->
+	</header><!--header-->
+	<section class="sessao1">
+		<div class="container">
+			<div class="texto-sessao1">
+				<h2>Desenvolvemos Sistemas Únicos</h2>
+				<p>Lorem Ipsum Silor domor amet</p>
+				<ul>
+					<li>Sites</li>
+					<li>Lojas Virtuais</li>
+					<li>Sistemas</li>
+
+				</ul>
+				<div class="clear"></div>
+				<div class="btn1-texto"> Entre em contato</div><!--btn1-->
+			</div><!--texto-sessao1-->
+			<div class="device-sessao1"></div><!--device-sessao1-->
+			<div class="clear"></div>
+		</div><!--container-->
+		
+	</section><!--sessao-->
+	<section class="sessao2">
+		<div class="container">
+			<h2>Desenvolvido de pessoas para pessoas</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum massa ipsum, fringilla eleifend urna semper vel. Aenean vitae nibh sagittis neque sodales finibus sed ut nisl. Maecenas vel sapien tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam sollicitudin elit ac sem porttitor, sed gravida ex tincidunt. Morbi tincidunt lectus nec ex finibus pharetra. Etiam sed tortor aliquam odio venenatis dapibus eget eu leo.
+			</p>
+			<img src="img/imac.png"/>
+		</div><!--container-->
+	</section><!--Sessao 2 -->
+
+	<section class="sessao3">
+		<div class="part1">
+			<div class="wraper-part1">
+				<h2>Nosso time</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum massa ipsum, fringilla eleifend urna semper vel. Aenean vitae nibh sagittis neque sodales finibus sed ut nisl. Maecenas vel sapien tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+				</p>
+			</div><!--wraper-part1-->
+		</div><!--part1-->
+
+		<div class="part2">
+			<div class="sobre-autor">
+				<div class="titulo-autor">
+						<div class="wraper-titulo-autor">
+							<h2>Romildo A. Lima Jr.</h2>
+							<p>Co-Founder / Desenvolvedor</p>
+						</div><!--wraper-titulo-autor-->
+					<div class="img-autor"></div>
+				</div><!--titulo-autor-->
+			
+				<div class="texto-autor">
+					<p>
+						Morbi sapien est, pretium sit amet consequat eu, mollis a enim. Morbi condimentum tortor tellus, id mattis justo ultrices non. Integer ultrices, arcu sed auctor fringilla, tellus felis vestibulum lorem, ac consectetur elit nibh vel augue.
+					</p>
+				</div><!--texto-autor-->
+			</div><!--sobreautor-->
+			<div class="slider-bullets">
+				<span style="background-color: rgb(170,170,170);"></span>
+				<span></span>
+				<span></span>
+			</div><!--slider-bullets-->
+		</div><!--part2-->
+		<div class="clear"></div>
+	</section><!--sessao3-->
+	<section class="sessao4">
+		<div class="container">
+			<div class="form">
+				<h2>Entre em contato</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque lobortis iaculis. In hac habitasse platea dictumst. Cras vitae purus metus.</p>
+				<form>
+					<input type="text" name="nome" placeholder="Nome*">
+					<input type="text" name="email" placeholder="E-mail*">
+					<textarea name="mensagem" placeholder="Mensagem*"></textarea>
+					<div class="clear"></div>
+					<div><input type="submit" name="enviar" value="Enviar"></div>
+				</form>
+			</div><!--form-->
+			<div class="map-wraper">
+				<h2>Faça uma visita</h2>
+				<div class="map-wraper3">
+					<div class="map-wraper2">
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBei-zTsf5pRryyQoX2u8nm0KFhFHzgj6Y'></script>
+						<div class="map" id='gmap_canvas'>
+							<a href='http://maps-generator.com/pt'>maps-generator.com</a>
+						</div> 
+						<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=53c875e319497b8d4a9197ef5bdc370368611098'></script>
+						<script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(41.31,-72.92),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.31,-72.92)});infowindow = new google.maps.InfoWindow({content:'<strong style="color:black;">myMapa</strong><p style="color:black;">Avenida Um, 36<br>54100425 Jaboatão dos Guararapes</p>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						
+					</div><!--map-wraper2-->
+				</div><!--map-wraper3-->
+			</div><!--map-wraper-->
+		</div><!--container-->
+		<div class="clear"></div>
+	</section><!--sessao4-->
+
+	<footer>
+		<div class="container">
+			<p>Todos os direitos reservados</p>
+			<p>odlimor.sevla@gmail.com</p>
+			<div class="clear"></div>
+		</div>
+	</footer><!--footer-->
+</body>
+</html>
